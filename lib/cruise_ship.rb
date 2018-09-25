@@ -7,7 +7,7 @@
 # }
 
 def select_winner(passengers)
-  passengers.any? |key, val|
+  passengers.each |key, val|
     return val if key.chars.last == 'a' && val.chars.first == 'A'
   end 
 end
