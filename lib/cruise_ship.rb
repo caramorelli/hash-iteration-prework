@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   winner = nil
-  passengers.each |key, val|
+  passengers.each do |key, val|
     # puts val if key.chars.last == 'a' && val.chars.first == 'A'
     puts val
   end 
