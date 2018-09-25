@@ -10,6 +10,6 @@ def happy_birthday(birthday_kids)
   end 
 end
 
-"Happy Birthday Timmy! You are now 9 years old!
+
 
 
