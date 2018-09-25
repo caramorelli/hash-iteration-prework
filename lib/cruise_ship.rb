@@ -7,5 +7,5 @@
 # }
 
 def select_winner(passengers)
-  
+  passengers.any? |key, val|
 end
