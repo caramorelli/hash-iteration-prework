@@ -9,7 +9,7 @@
 def select_winner(passengers)
   winner = nil
   passengers.each do |key, val|
-    puts val if key.split('').last == 'a' && val.split('').first == 'A'
+    puts val if key.to_s.chars.last == 'a' && val.chars.first == 'A'
     # puts val
   end 
 end
