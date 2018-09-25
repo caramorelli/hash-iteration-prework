@@ -13,3 +13,5 @@ def select_winner(passengers)
     puts val
   end 
 end
+
+select_winner([])
