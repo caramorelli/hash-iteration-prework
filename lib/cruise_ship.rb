@@ -8,6 +8,6 @@
 
 def select_winner(passengers)
   passengers.any? |key, val|
-    key.chars.last == 'a' && val.chars.first == 'A'
+    return val if key.chars.last == 'a' && val.chars.first == 'A'
   end 
 end
