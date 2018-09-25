@@ -9,6 +9,6 @@
 def select_winner(passengers)
   winner = nil
   passengers.each do |key, val|
-    val if key.to_s.chars.last == 'a' && val.chars.first == 'A'
+    return val if key.to_s.chars.last == 'a' && val.chars.first == 'A'
   end 
 end
